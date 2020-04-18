@@ -21,8 +21,8 @@ public class ConsumerInterface {
 //				System.out.println(i);
 //			}
 //		};
-		Consumer<Integer> c = i -> System.out.println(i);
-		values.forEach(c);
+		//Consumer<Integer> c = i -> System.out.println(i);
+		values.forEach(i -> System.out.println(i));
 	}
 
 }
